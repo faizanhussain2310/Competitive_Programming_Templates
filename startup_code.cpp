@@ -27,6 +27,12 @@
 #include "ext/pb_ds/assoc_container.hpp"
 #include "ext/pb_ds/tree_policy.hpp"
 
+#ifndef ONLINE_JUDGE
+#include "debug.h"
+#else
+#define debug(...) 8
+#endif
+
 using namespace std;
 using namespace __gnu_pbds;
 
